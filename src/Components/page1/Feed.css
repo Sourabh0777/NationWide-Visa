@@ -1,0 +1,85 @@
+.feed {
+}
+.feed_heading_outerBorder {
+  margin: 0;
+  border: 1px solid black;
+  border-left: none;
+  display: inline-block;
+  rotate: -4deg;
+  width: 50%;
+  transform-origin: top left;
+  height: fit-content;
+}
+
+.feed_heading_innerBorder {
+  margin: 0;
+  rotate: 4deg;
+  border: 1px solid red;
+  border-left: none;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+
+}
+.feed_heading_innerBorder > h2 {
+  margin-left: 300px;
+  justify-content: center;
+  align-self: center;
+  font-size: 30px;
+  height: fit-content;
+
+}
+.feed_secondHeading_headingOne {
+  margin-left: 250px;
+  height: fit-content;
+
+}
+.feed_secondHeading_headingOne > h4 {
+  font-size: 28px;
+}
+.feed_subHeadings_one {
+  background-color: yellow;
+  width: fit-content;
+  height: max-content;
+  rotate: -6deg;
+  margin-left: 440px;
+}
+.feed_subHeadings_one > h2 {
+  width: fit-content;
+  rotate: 6deg;
+  padding: 5px;
+}
+.feed_subHeadings_two {
+  background-color: red;
+  width: fit-content;
+  height: max-content;
+  margin-left: 200px;
+  margin-top: -10px;
+}
+.feed_subHeadings_two > h2 {
+  width: fit-content;
+  padding: 5px;
+}
+
+.feed_schedule_box_one {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: -20px;
+  margin-bottom: 100px;
+}
+.feed_schedule_box_one_details {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  margin-left: 350px;
+}
+.feed_schedule_box_one_details > .MuiSvgIcon-root {
+  color: white;
+  width: max-content;
+  height: 45px;
+}
+.feed_schedule_box_one_details > h2 {
+  color: white;
+}

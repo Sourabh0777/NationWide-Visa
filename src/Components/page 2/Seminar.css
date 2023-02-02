@@ -1,0 +1,69 @@
+.semainar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.one {
+  background-color: #d80027;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+.one > h2 {
+  margin-left: 120px;
+
+  font-size: 38px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.two {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+.two > h2 {
+  margin-left: 120px;
+  font-size: 38px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.three {
+  background-color: pink;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+.three_upperdiv {
+  display: flex;
+  margin: 0 0 0 100px;
+  align-content: center;
+}
+.three_div {
+  margin: 0;
+}
+.three_div > h1 {
+  font-size: 68px;
+  margin: 0;
+  color: #d80027;
+}
+.details {
+  margin: 0;
+}
+.details > h2 {
+  margin: 20px 0 0px 0;
+}
+.details > h3 {
+  margin: 0 0 0 0;
+  font-weight: normal;
+}
+
+.four {
+  align-self: flex-end;
+  width: 80%;
+  background-color: #f2f2f2;
+}

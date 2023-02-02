@@ -1,0 +1,42 @@
+.media {
+  /* border: 1px solid black; */
+  background: #fff;
+  text-align: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.media_row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.media_row1 > h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+
+}
+.media_row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.media_row2 > img {
+  cursor: pointer;
+  width: 198px;
+  height: 198px;
+  margin-left: 10px;
+  margin-top: -25px;
+  margin-bottom: 0;
+}
